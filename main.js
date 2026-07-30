@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const message = formData.get('message');
       
       // For V1, redirect to WhatsApp with a pre-filled message
-      const waNumber = '1234567890';
+      const waNumber = '2348063776388';
       const text = `Hi, I'm interested in booking a consultation.\n\nName: ${name}\nSubject: ${subject}\nLevel: ${level}\nContact: ${contact}\nMessage: ${message}`;
       
       const waUrl = `https://wa.me/${waNumber}?text=${encodeURIComponent(text)}`;
